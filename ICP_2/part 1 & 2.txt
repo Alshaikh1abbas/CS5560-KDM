@@ -1,0 +1,18 @@
+solve :
+
+for the (POS, NER & Co-reference) parts for each sentence will be like this :
+
+a-The dog saw John in the park
+
+POS: [('The', 'DT'), ('dog', 'NN'), ('saw', 'VBD'), ('John', 'NNP'), ('in', 'IN'), ('the', 'DT'), ('park', 'NN')]
+Coref::[(saw Coref to The dog)]
+
+
+b-The little bear saw the fine fat trout in the rocky brook
+
+POS: [('The', 'DT'), ('little', 'JJ'), ('bear', 'NN'), ('saw', 'VBD'), ('the', 'DT'), ('fine', 'JJ'), ('fat', 'JJ'), ('trout', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('rocky', 'JJ'), ('brook
+', 'NN')]
+
+Coref::[(saw Coref to little bear)]
+
+.
