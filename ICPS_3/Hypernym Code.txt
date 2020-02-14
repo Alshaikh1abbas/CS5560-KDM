@@ -1,0 +1,6 @@
+# Hypernym Code
+tree = wn.synset('tree.n.01')
+# obtain parts
+print(tree.part_meronyms())
+# obtain substances
+print(tree.substance_meronyms())

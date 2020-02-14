@@ -1,0 +1,3 @@
+# Hyponym Code
+machine_that_prints = wn.synset('House.n.03')
+sorted([lemma.name() for synset in machine_that_prints.hyponyms() for lemma in synset.lemmas()])

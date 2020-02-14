@@ -1,0 +1,4 @@
+#Meronym Code
+Home = wn.synset('tree.n.01')
+print(Home.part_meronyms())
+print(Home.substance_meronyms())

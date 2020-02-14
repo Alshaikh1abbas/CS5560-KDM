@@ -1,0 +1,3 @@
+#Holonym Code
+print(wn.synset('atom.n.01').part_holonyms())
+print(wn.synset('hydrogen.n.01').substance_holonyms())

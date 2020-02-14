@@ -1,0 +1,23 @@
+#Triplets Code:
+s='The biggest natural disaster in 2020 was the burning of the Amazon rainforest fire.'
+s1='The biggest natural disaster in 2020 was Coronavirus spread in China.'
+# s = input('Sentence: ')
+
+output = nlp.annotate(s1, properties={"annotators":"tokenize,ssplit,pos,depparse,natlog,openie",
+                                    "outputFormat": "json",
+                                    "openie.triple.strict":"true",
+                                    "openie.max_entailments_per_clause":"1"})
+print(output)
+output = json.loads(output)
+
+
+
+
+
+# here to print the (subject,object,verb,relation)
+
+print("The subject, object & (verb//relation) of sentence are")
+for openie_result in output["sentences"]:
+    triplets = openie_result['openie']
+    for triplet in triplets:
+        print(triplet['subject'] + ' -> ' + triplet['relation'] + ' -> ' + triplet['object'])

@@ -1,0 +1,20 @@
+# WordNet Code
+
+from nltk.corpus import wordnet as wn
+# unambiguous word
+wn.synsets('househome')
+
+wn.synset('house.n.01').lemma_names()
+
+# ambiguous word
+wn.synsets('house')
+
+for synset in wn.synsets('house'):
+    print("\tLemma: {}".format(synset.name()))
+    print("\tDefinition: {}".format(synset.definition()))
+    print("\tExample: {}".format(synset.examples()))
+    print()
+
+
+for synset in wn.synsets('printer'):
+    print(synset.name(), ' -> ', synset.lemmas())

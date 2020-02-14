@@ -1,0 +1,22 @@
+#Entailment Code
+
+wn.synset('eat.v.01').entailments()
+## Similarity
+truck = wn.synset('truck.n.01')
+limousine = wn.synset('limousine.n.01')
+truck.lowest_common_hypernyms(limousine)
+
+print(wn.synset('entity.n.01').min_depth())
+print(wn.synset('car.n.01').min_depth())
+print(wn.synset('horse.n.01').min_depth())
+print(wn.synset('mare.n.01').min_depth())
+
+train = wn.synset('train.n.01')
+horse = wn.synset('horse.n.01')
+animal = wn.synset('animal.n.01')
+atom = wn.synset('atom.n.01')
+ 
+print("Train => Horse: {}".format(train.path_similarity(horse)))
+print("Horse => Train: {}".format(horse.path_similarity(train)))
+print("Horse => Animal: {}".format(horse.path_similarity(animal)))
+print("Train => Atom: {}".format(train.path_similarity(atom)))
