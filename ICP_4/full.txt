@@ -48,3 +48,6 @@ def main():
 
     # Command to show count, avg, stdev, min & max of each column
     file.describe().show()
+
+if __name__ == '__main__':
+    main()
