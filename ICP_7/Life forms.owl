@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/ab/ontologies/2020/2/untitled-ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/ab/ontologies/2020/2/untitled-ontology-7">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Animals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Birds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Female"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fungus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Life_forms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Male"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mammals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marine_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Non-Toxic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reptiles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sea_animals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toxic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wild_animals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wild_plant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Birds"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Female"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Male"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mammals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NON-Predatory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nontoxic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Predatory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reptiles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Toxic"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Animals"/>
+        <Class IRI="#Life_forms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Birds"/>
+        <Class IRI="#Wild_animals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Female"/>
+        <Class IRI="#Human"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fungus"/>
+        <Class IRI="#Life_forms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human"/>
+        <Class IRI="#Life_forms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Male"/>
+        <Class IRI="#Human"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mammals"/>
+        <Class IRI="#Wild_animals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marine_plant"/>
+        <Class IRI="#Plant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Non-Toxic"/>
+        <Class IRI="#Fungus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plant"/>
+        <Class IRI="#Life_forms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reptiles"/>
+        <Class IRI="#Wild_animals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sea_animals"/>
+        <Class IRI="#Animals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toxic"/>
+        <Class IRI="#Fungus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wild_animals"/>
+        <Class IRI="#Animals"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wild_plant"/>
+        <Class IRI="#Plant"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Wild_animals"/>
+        <NamedIndividual IRI="#Birds"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Human"/>
+        <NamedIndividual IRI="#Female"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Human"/>
+        <NamedIndividual IRI="#Male"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wild_animals"/>
+        <NamedIndividual IRI="#Mammals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sea_animals"/>
+        <NamedIndividual IRI="#NON-Predatory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fungus"/>
+        <NamedIndividual IRI="#Nontoxic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sea_animals"/>
+        <NamedIndividual IRI="#Predatory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wild_animals"/>
+        <NamedIndividual IRI="#Reptiles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Fungus"/>
+        <NamedIndividual IRI="#Toxic"/>
+    </ClassAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
