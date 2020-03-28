@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://webprotege.stanford.edu/project/7RSRLycdqcu9ywpkFL7vAF"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://webprotege.stanford.edu/project/7RSRLycdqcu9ywpkFL7vAF">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R2BdjHzNbu9CMlYaKT5r7C"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7I5g96MsOgJNft6qGUjIGe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7gQr03cD0oPR3lbulmWscL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7ln3XiK4MD5niJOs7eD4f1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7yidAaI7nqX3Ioh1Zq6vYy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R80klRcsTjlBv5IDitoPfoH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8GHEKCQnFQfNK66f17DIox"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8lDUOfHRitzorp8oDPGAW"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9lYDfevID6hmOoepWW4hQJ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RC75wXTY9u5sxVdeQoDeUZh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCDDpevxaYkuefGbfHfc8S3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDAkd8NBGBgMhUbAbRkNcQt"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RER9SJqVBP9aTQspEhGq87"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/Rf3QUIl3xkSjTp8FTiYK49"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/Rz3ho5vJiANDCV6WegnzpO"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RBnmjPjqQie1s66cwcT5BMP"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RPOdigu80ffuuChw4BYgQv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8Q6VJaJvzN1bWIOZ6wt8Q8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://webprotege.stanford.edu/R8zBpmNBy08gmFwjC8A04tl"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R2BdjHzNbu9CMlYaKT5r7C"/>
+        <Class IRI="http://webprotege.stanford.edu/R8lDUOfHRitzorp8oDPGAW"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7I5g96MsOgJNft6qGUjIGe"/>
+        <Class IRI="http://webprotege.stanford.edu/R8lDUOfHRitzorp8oDPGAW"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7gQr03cD0oPR3lbulmWscL"/>
+        <Class IRI="http://webprotege.stanford.edu/R7ln3XiK4MD5niJOs7eD4f1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7yidAaI7nqX3Ioh1Zq6vYy"/>
+        <Class IRI="http://webprotege.stanford.edu/R7ln3XiK4MD5niJOs7eD4f1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R80klRcsTjlBv5IDitoPfoH"/>
+        <Class IRI="http://webprotege.stanford.edu/R8lDUOfHRitzorp8oDPGAW"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8GHEKCQnFQfNK66f17DIox"/>
+        <Class IRI="http://webprotege.stanford.edu/R7ln3XiK4MD5niJOs7eD4f1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9lYDfevID6hmOoepWW4hQJ"/>
+        <Class IRI="http://webprotege.stanford.edu/R7ln3XiK4MD5niJOs7eD4f1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RC75wXTY9u5sxVdeQoDeUZh"/>
+        <Class IRI="http://webprotege.stanford.edu/R8lDUOfHRitzorp8oDPGAW"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCDDpevxaYkuefGbfHfc8S3"/>
+        <Class IRI="http://webprotege.stanford.edu/R7ln3XiK4MD5niJOs7eD4f1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDAkd8NBGBgMhUbAbRkNcQt"/>
+        <Class IRI="http://webprotege.stanford.edu/R8lDUOfHRitzorp8oDPGAW"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RER9SJqVBP9aTQspEhGq87"/>
+        <Class IRI="http://webprotege.stanford.edu/R8lDUOfHRitzorp8oDPGAW"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/Rf3QUIl3xkSjTp8FTiYK49"/>
+        <Class IRI="http://webprotege.stanford.edu/R8lDUOfHRitzorp8oDPGAW"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/Rz3ho5vJiANDCV6WegnzpO"/>
+        <Class IRI="http://webprotege.stanford.edu/R7ln3XiK4MD5niJOs7eD4f1"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://webprotege.stanford.edu/RBnmjPjqQie1s66cwcT5BMP"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R2BdjHzNbu9CMlYaKT5r7C</IRI>
+        <Literal xml:lang="en">Teacher Assistant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7I5g96MsOgJNft6qGUjIGe</IRI>
+        <Literal xml:lang="en">Lecturer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7gQr03cD0oPR3lbulmWscL</IRI>
+        <Literal xml:lang="en">B.A	Student</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7ln3XiK4MD5niJOs7eD4f1</IRI>
+        <Literal xml:lang="en">Abstract 1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7yidAaI7nqX3Ioh1Zq6vYy</IRI>
+        <Literal xml:lang="en">M.D. Student</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R80klRcsTjlBv5IDitoPfoH</IRI>
+        <Literal xml:lang="en">Associate Professors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8GHEKCQnFQfNK66f17DIox</IRI>
+        <Literal xml:lang="en">M.A	Student</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8Q6VJaJvzN1bWIOZ6wt8Q8</IRI>
+        <Literal xml:lang="en">Faculty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8lDUOfHRitzorp8oDPGAW</IRI>
+        <Literal xml:lang="en">Abstract 2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8zBpmNBy08gmFwjC8A04tl</IRI>
+        <Literal xml:lang="en">Student</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9lYDfevID6hmOoepWW4hQJ</IRI>
+        <Literal xml:lang="en">Ph.D Student</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBnmjPjqQie1s66cwcT5BMP</IRI>
+        <Literal xml:lang="en">Faculty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RC75wXTY9u5sxVdeQoDeUZh</IRI>
+        <Literal xml:lang="en">Assistant Professor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCDDpevxaYkuefGbfHfc8S3</IRI>
+        <Literal xml:lang="en">M.S	Student</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDAkd8NBGBgMhUbAbRkNcQt</IRI>
+        <Literal xml:lang="en">Full Professor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RER9SJqVBP9aTQspEhGq87</IRI>
+        <Literal xml:lang="en">Doctor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RPOdigu80ffuuChw4BYgQv</IRI>
+        <Literal xml:lang="en">Student</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/Rf3QUIl3xkSjTp8FTiYK49</IRI>
+        <Literal xml:lang="en">Professor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/Rz3ho5vJiANDCV6WegnzpO</IRI>
+        <Literal xml:lang="en">Ed.M Student</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
