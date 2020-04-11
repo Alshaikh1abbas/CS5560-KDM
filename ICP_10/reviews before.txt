@@ -1,0 +1,34 @@
+================ Before change ================
+Number of training datapoints: 1600
+Number of test datapoints: 400
+Accuracy of the classifier: 0.735
+
+Top 10 most informative words:
+outstanding
+insulting
+vulnerable
+ludicrous
+uninvolving
+astounding
+avoids
+fascination
+affecting
+symbol
+
+Predictions:
+
+Review: It is an amazing movie
+Predicted sentiment: Positive
+Probability: 0.61
+
+Review: This is a dull movie. I would never recommend it to anyone.
+Predicted sentiment: Negative
+Probability: 0.77
+
+Review: The cinematography is pretty great in this movie
+Predicted sentiment: Positive
+Probability: 0.67
+
+Review: The direction was terrible and the story was all over the place
+Predicted sentiment: Negative
+Probability: 0.63
